@@ -1,0 +1,19 @@
+name: ICET
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - ase
+  - pymatgen
+  - icet
+
+  # - pip:
+    # - -r requirements.txt
