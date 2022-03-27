@@ -7,6 +7,7 @@ channels:
 dependencies:
   - python=3.9
   - pip
+  - autopep8
   - numpy
   - scipy
   - pandas
@@ -14,6 +15,5 @@ dependencies:
   - ase
   - pymatgen
   - icet
-
-  # - pip:
-    # - -r requirements.txt
+  - pip:
+    - -r requirements.txt
