@@ -8,13 +8,13 @@ from trainstation import CrossValidationEstimator
 
 # step 1: Basic setup
 db = connect('reference_data.db')
-primitive_structure = db.get(id=625).toatoms()  # primitive structure
+primitive_structure = db.get(id=1).toatoms()  # primitive structure
 view(primitive_structure)
 # step 2: Set up the basic structure and a cluster space
-cs = ClusterSpace(structure=primitive_structure,
-                  cutoffs=[13.5, 6.0, 5.5],
-                  chemical_symbols=['Ag', 'Pd'])
-print(cs)
+# cs = ClusterSpace(structure=primitive_structure,
+#                   cutoffs=[13.5, 6.0, 5.5],
+#                   chemical_symbols=['Ag', 'Pd'])
+# print(cs)
 
 # step 3: Parse the input structures and set up a structure container
 # sc = StructureContainer(cluster_space=cs)
